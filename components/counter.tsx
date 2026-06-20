@@ -82,13 +82,13 @@ export function Counter() {
               style={({ pressed }) => [styles.btn, styles.btnAdd, pressed && styles.btnPressed]}
               onPressIn={() => startHold(1)}
               onPressOut={stopHold}>
-              <Text style={styles.btnAddText}>+ Add Count</Text>
+              <Text style={styles.btnAddText}>+ Add</Text>
             </Pressable>
             <Pressable
               style={({ pressed }) => [styles.btn, styles.btnMinus, pressed && styles.btnPressed]}
               onPressIn={() => startHold(-1)}
               onPressOut={stopHold}>
-              <Text style={styles.btnMinusText}>- Minus Count</Text>
+              <Text style={styles.btnMinusText}>- Minus </Text>
             </Pressable>
           </View>
 
